@@ -3,6 +3,8 @@
 This is the project for the Getting and Cleaning Data Coursera.
 
 
+
+
 This repository consists of 4 files
 
 CodeBook.md : This markdown document indicates all the variables of the tidy data set.
@@ -18,6 +20,7 @@ tidyset.txt : This is the tidy data set produced as an output from the R script.
 
 ##create one R script called run_analysis.R that does the following:
         
+
 ##Steps
 
 1.Download the dataset from the web and unzip the data.
