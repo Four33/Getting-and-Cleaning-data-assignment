@@ -19,7 +19,11 @@ tidyset.txt : This is the tidy data set produced as an output from the R script.
 ##packages dplyr datatable curl
 
 ##create one R script called run_analysis.R that does the following:
-        
+   
+   
+   
+   
+   
 
 ##Steps
 
