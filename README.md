@@ -13,7 +13,8 @@ tidyset.txt : This is the tidy data set produced as an output from the R script.
 ##packages dplyr datatable curl
 ##create one R script called run_analysis.R that does the following:
         
-#Steps
+##Steps
+
 1.Download the dataset from the web and unzip the data.
 2.Merges the training and the test sets to create one data set.
 3.Extracts only the measurements on the mean and standard deviation for each measurement. 
