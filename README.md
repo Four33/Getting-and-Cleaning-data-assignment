@@ -6,8 +6,11 @@ This is the project for the Getting and Cleaning Data Coursera.
 This repository consists of 4 files
 
 CodeBook.md : This markdown document indicates all the variables of the tidy data set.
+
 README.md : This markdown document explains the transformations involved step by step.
+
 run_analysis.R : This R script was used to transform the given data to a tidy data set.
+
 tidyset.txt : This is the tidy data set produced as an output from the R script.
 
 ##packages dplyr datatable curl
