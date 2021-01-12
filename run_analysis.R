@@ -11,12 +11,17 @@ Subject <- rbind(subject_train, subject_test)
 Merged <- cbind(Subject, Y, X)
 
 # 2.Extracts only the measurements on the mean and standard deviation for each measurement
-TData <- Merged %>% select(subject, code, contains("mean"), contains("std"))
+Data <- Merged %>% select(subject, code, contains("mean"), contains("std"))
 
 # 3.Uses descriptive activity names to name the activities in the data set
-TData$code <- activities[TData$code, 2]
+Data$code <- activities[Data$code, 2]
 
 # 4.Uses descriptive activity names to name the activities in the data set
+
+Data <- Data %>%
+    group_by(subject, activity) %>%
+    summarise_all(funs(mean))
+write.table(Data, "Data.txt", row.name=FALSE)
 
 
 
