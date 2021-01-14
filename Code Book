@@ -1,1 +1,4 @@
+# Download the dataset
+1.Dataset downloaded and extracted under the folder called UCI HAR Dataset
 
+2.Extracts only the measurements on the mean and standard deviation for each measurement
