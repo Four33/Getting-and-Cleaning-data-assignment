@@ -11,13 +11,17 @@ Reading feature vector
 Reading activity labels
 Assigning variable names
 
-2. Extracting only the measurements on the mean and standard deviation for each measurement
+2. Extracting only the measurements on the mean and standard deviation for each measurement.
 Reading variable names
 Create vector for defining ID, mean and standard deviation
-Making nessesary subset from merged data set
-Using descriptive activity names to name the activities in the data set
+Making subset from merged data set
+Using descriptive activity names to name activities
 Appropriately labeling the data set with descriptive variable names
 
-3. Creating a tidy data set with the average of each variable for each activity and each subject
+3. Creating a second tidy data set with the average of each variable for each activity and each subject.
 Making tidy data set
 Writing tidy data set in txt file
+
+4. Merges the training and test set to create one dataset.
+X (10299 rows, 561 columns) is created by merging x_train and x_test using rbind() function
+Y (10299 rows, 1 column) is created by merging y_train and y_test using rbind() function
